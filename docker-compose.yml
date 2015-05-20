@@ -1,0 +1,6 @@
+hubot:
+  build: .
+  ports:
+    - '8080'
+  env_file:
+    - .env
