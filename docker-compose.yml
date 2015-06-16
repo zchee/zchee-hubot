@@ -1,6 +1,11 @@
-hubot:
+bot:
   build: .
   ports:
     - '8080'
   env_file:
     - .env
+
+redis:
+  image: redis:latest
+  ports: 
+    - '6379'
